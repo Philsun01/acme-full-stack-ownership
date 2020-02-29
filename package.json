@@ -1,0 +1,38 @@
+{
+  "name": "acme-full-stack-ownership",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack", 
+    "build:dev": "npm run build -- --mode=development --watch",
+    "start:dev": "nodemon server.js --ignore dist/ --ignore src/ & npm run build:dev"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Philsun01/acme-full-stack-ownership.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Philsun01/acme-full-stack-ownership/issues"
+  },
+  "homepage": "https://github.com/Philsun01/acme-full-stack-ownership#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "pg": "^7.18.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
