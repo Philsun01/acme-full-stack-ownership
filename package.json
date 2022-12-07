@@ -22,7 +22,7 @@
   "homepage": "https://github.com/Philsun01/acme-full-stack-ownership#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "path": "^0.12.7",
     "pg": "^7.18.2",
     "react": "^16.13.0",
